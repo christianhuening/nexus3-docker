@@ -41,7 +41,7 @@ Build ARM 32-bit (armv7l):
 ```bash
 docker buildx build --pull \
   --platform "linux/arm/v7" \
-  --tag "klo2k/nexus3" \
+  --tag "chrishuen/nexus3" \
   --output=type=docker \
   .
 ```
@@ -51,7 +51,7 @@ Build ARM 64-bit (aarch64):
 ```bash
 docker buildx build --pull \
   --platform "linux/arm64" \
-  --tag "klo2k/nexus3" \
+  --tag "chrishuen/nexus3" \
   --output=type=docker \
   .
 ```
